@@ -1,63 +1,68 @@
-<!DOCTYPE html>
 <html>
-<head>
-	<title>Login Page</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
+    <head>
+        <title>Shoe Mart | Login</title>
+	<link rel="stylesheet" type="text/css" href="login_style.css">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-</head>
-<body>
+    </head>
+    <body>
+        <div class="navbar" style="max-width:100vw; background-color:#353434; height:7vh;">
+            <a href="index.html" style="text-decoration: none;">  
+            <div class="logo">
+                <h2 style="color:white;padding-top: 2vh; padding-left: 3vw;">SHOE MART </h2>
+            </div>
+            </a>
+        </div>
+        <div class="hero">
+            <div class="form-box" style="border-radius: 10px;">
+                <div class="button-box">
+                    <div id="btn">
+                    </div>
+                    <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
 
-<nav class="navbar navbar-dark black">
-<div class="logo"> <a class="navbar-brand" href="index.html">SHOE MART</a></div>
-</nav>
-      
-     
-<div class="container">
-	<div class="d-flex justify-content-center h-100">
-		<div class="card">
-			<div class="card-header">
-				<h3>Sign In</h3>
-				
-			</div>
-			<div class="card-body">
-				<form>
-					<div class="input-group form-group">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-user"></i></span>
-						</div>
-						<input type="text" class="form-control" placeholder="username">
-						
-					</div><br>
-					<div class="input-group form-group">
-						<div class="input-group-prepend">
-							<span class="input-group-text"><i class="fas fa-key"></i></span>
-						</div>
-						<input type="password" class="form-control" placeholder="password">
-					</div><br>
-					<div class="row align-items-center remember">
-						<input type="checkbox">Remember Me
-					</div><br>
-					<div class="form-group float-right">
-                        <div class="h-25 d-inline-block"></div>
-						<input type="submit" value="Login" class="btn float-right login_btn btn-warning">
-					</div>
-				</form>
-			</div>
-			<div class="card-footer">
-				<div class="d-flex justify-content-center links">
-					Don't have an account?<a href="#">Sign Up</a>
-				</div>
-				<div class="d-flex justify-content-center">
-					<a href="#">Forgot your password?</a>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-</body>
+                </div>
+                <div class="social-icons">
+                    <img src="assets/images/fb.png">
+                    <img src="assets/images/tw.png">
+                    <img src="assets/images/gp.png">
+                </div>
+                <form id="login" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id"
+                    required>
+                    <input type="text" class="input-field" placeholder="Enter password"
+                    required>
+                    <input type="checkbox" class="chech-box"><span>Remember Password</span>
+                    <button type="submit" class="submit-btn">Log In</button> 
+                </form>
+                <form id="register" class="input-group">
+                    <input type="text" class="input-field" placeholder="User Id"
+                    required>
+                    <input type="email" class="input-field" placeholder="Email Id"
+                    required>
+                    <input type="text" class="input-field" placeholder="Enter password"
+                    required>
+                    <input type="checkbox" class="chech-box"><span>I agree to the terms & condition</span>
+                    <button type="submit" class="submit-btn">Register</button> 
+                </form>
+            </div>
+        </div>
+        <script>
+            var x=document.getElementById("login");
+            var y=document.getElementById("register");
+            var z=document.getElementById("btn");
+
+            function register(){
+                x.style.left="-400px";
+                y.style.left="50px";
+                z.style.left="110px";
+            }
+            function login(){
+                x.style.left="50px";
+                y.style.left="450px";
+                z.style.left="0";
+            }
+        </script>
+    </body>
 </html>
