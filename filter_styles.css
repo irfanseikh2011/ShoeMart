@@ -1,0 +1,316 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.fas.fa-star,
+.far.fa-star {
+    color: blue;
+}
+
+.smaller-text {
+    font-size: 0.9rem;
+}
+
+.li {
+    text-decoration: none;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.text-underline:hover {
+    text-decoration: underline;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+}
+
+.card {
+    background-color: #f4f4f4;
+}
+.btn-success {
+    background-color: #cfd36b;
+    border: #f4f4f4;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#footer {
+margin-top: 30px;
+display: inline-block;
+width: 100%;
+background: url("../images/Futurelife-bg-body.png") repeat;
+padding-top: 70px;
+}
+
+#footer h3 {
+font-size: 18px;
+font-weight: 700;
+color: #555555;
+text-transform: uppercase;
+margin-bottom: 20px;
+line-height: 24px;
+}
+
+#footer.border-top {
+border-top: 1px solid #f2f2f2;
+}
+
+#footer .footer-top .col-md-6 p {
+max-width: 400px;
+margin-bottom: 20px;
+line-height: 24px;
+}
+
+#footer .footer-top .col-md-6 .infomation p {
+margin-bottom: 0px;
+}
+
+#footer .footer-top p {
+font-family: "Lora";
+color: #aaa;
+font-style: italic;
+line-height: 24px;
+}
+
+#footer .footer-top .infomation p {
+color: #888;
+}
+
+#footer .footer-top .infomation i {
+font-size: 13px;
+color: #888;
+line-height: 24px;
+margin-right: 8px;
+}
+
+#footer .footer-top .col-md-4 ul {
+width: 50%;
+display: inline-block;
+float: left;
+}
+
+#footer .footer-top ul li a {
+font-family: "Lora" !important;
+font-size: 14px;
+color: #aaa;
+line-height: 30px;
+font-style: italic;
+transition: all 0.5s ease-out 0s;
+}
+
+#footer .footer-top ul li a:hover {
+color: #96b76c;
+padding-left: 15px;
+}
+
+#footer .footer-bottom {
+padding: 30px 0px;
+border-top: 1px solid #f0f2f2;
+margin-top: 70px;
+}
+
+#footer .footer-bottom .col-md-6 {
+padding: 0px;
+}
+
+#footer .footer-bottom a:hover i {
+color: #aaa;
+font-size: 20px;
+margin-right: 25px;
+}
+
+#footer .footer-bottom a i {
+color: #aaa;
+font-size: 20px;
+margin-right: 25px;
+}
+
+#footer .footer-bottom p, #footer .footer-bottom p a {
+font-family: "Lora";
+font-style: italic;
+font-size: 14px;
+line-height: 20px;
+color: #aaa;
+}
+
+#footer .footer-bottom p {
+float: right;
+padding-right: 0px;
+}
+
+/** 6.5.2. Footer Version 1 **/
+#footer.footer-v2 {
+margin-top: 0px;
+background: url(../images/Futurelife-bg-newsletter-v2.png) repeat;
+}
+
+#footer.footer-v2 .footer-bottom {
+border-top: 1px solid #efe6ef;
+}
+
+/** 6.5.3. Footer Version 2 **/
+/** 6.5.3. Footer Version 3 **/
+#footer.footer-v3 {
+margin-top: 0px;
+background: none;
+padding-top: 0px;
+}
+
+#footer.footer-v3 .footer-bottom {
+margin-top: 0px;
+}
+
+#footer.footer-v3 .footer-bottom .col-md-6:last-child {
+text-align: right;
+}
+
+#footer.footer-v3 .footer-bottom .col-md-6:last-child a {
+color: #888888;
+font-family: "Lora";
+font-style: italic;
+}
+
+#footer.footer-v3 .footer-bottom .col-md-6:last-child a:nth-child(1), #footer.footer-v3 .footer-bottom .col-md-6:last-child a:nth-child(2) {
+margin-right: 15px;
+}
+
+#footer.footer-v3 .footer-bottom .col-md-6:last-child a:hover, #footer.footer-v3 .footer-bottom .col-md-6:last-child a.active {
+color: #6dd6d6;
+text-decoration: underline;
+}
+
+#footer.footer-v3 .footer-bottom .col-md-6:last-child a:hover i, #footer.footer-v3 .footer-bottom .col-md-6:last-child a.active i {
+color: #6dd6d6;
+}
+
+#footer.footer-v3 .footer-bottom p {
+float: inherit;
+}
+
+/** 6.5.3. Footer Version 4 **/
+#footer.footer-v4 {
+background: #6dd6d6;
+text-align: center;
+}
+
+#footer.footer-v4 .footer-bottom {
+margin-top: 0px;
+border-top: 1px solid #97dfe4;
+}
+
+#footer.footer-v4 a, #footer.footer-v4 p {
+color: #fff !important;
+}
+
+#footer.footer-v4 .logo-footer {
+font-size: 40px;
+font-weight: 700;
+text-transform: uppercase;
+display: inline-block;
+}
+
+#footer.footer-v4 .share a {
+font-family: "Lora";
+font-style: italic;
+margin-right: 10px;
+}
+
+#footer.footer-v4 .share a:nth-child(1), #footer.footer-v4 .share a:nth-child(2) {
+margin-right: 20px;
+}
+
+#footer.footer-v4 .share a:last-child {
+margin-right: 0px;
+}
+
+#footer.footer-v4 .share a.active {
+text-decoration: underline;
+}
+
+#footer.footer-v4 .share a i {
+font-size: 18px;
+}
+
+#footer.footer-v4 .footer-bottom p {
+width: 100%;
+text-align: center;
+}
+
+/** 6.5.4. Footer Version 5 **/
+#footer.footer-v5 .footer-bottom {
+border: none;
+}
+
+#footer.footer-v5 .footer-bottom .col-md-6 a:hover, #footer.footer-v5 .footer-bottom .col-md-6 a.active {
+color: #fff !important;
+}
+
+#footer.footer-v5 .footer-bottom .col-md-6 a:hover i, #footer.footer-v5 .footer-bottom .col-md-6 a.active i {
+color: #fff !important;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+#footer .footer-top .col-md-4 {
+margin: 50px 0px;
+display: inline-block;
+width: 100%;
+}
+#footer .footer-top .col-md-4 ul.menu:last-child {
+text-align: right;
+}
+#footer .footer-top .col-md-4 ul.menu:last-child li a:hover {
+padding-right: 15px;
+padding-left: 0px;
+}
+#footer .footer-bottom .col-md-6 {
+text-align: center;
+margin-bottom: 10px;
+}
+#footer .footer-bottom p {
+float: inherit;
+}
+.banner-center .col-md-6, .banner-center .col-md-3 {
+padding: 0px !important;
+}
+.banner-center .col-md-6 {
+margin: 40px 0px;
+}
+.shipping-container .col-md-4:nth-child(2) {
+margin: 20px 0px;
+}
+#footer.footer-v3 .footer-bottom .col-md-6:last-child {
+text-align: center;
+}
+}
+
+@media (max-width: 767px) {
+#footer .footer-top .col-md-4 {
+margin: 50px 0px;
+display: inline-block;
+width: 100%;
+}
+#footer .footer-top .col-md-4 ul.menu:last-child {
+text-align: right;
+}
+#footer .footer-top .col-md-4 ul.menu:last-child li a:hover {
+padding-right: 15px;
+padding-left: 0px;
+}
+#footer .footer-bottom .col-md-6 {
+text-align: center;
+margin-bottom: 10px;
+}
+#footer .footer-bottom p {
+float: inherit;
+}
+}
